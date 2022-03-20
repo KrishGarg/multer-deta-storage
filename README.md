@@ -1,6 +1,6 @@
 # Multer Deta Drive Storage Engine
 
-![version](https://img.shields.io/npm/v/multer-deta-storage?style=for-the-badge)
+[![version](https://img.shields.io/npm/v/multer-deta-storage?style=for-the-badge)](https://www.npmjs.com/package/multer-deta-storage)
 ![license](https://img.shields.io/npm/l/multer-deta-storage?style=for-the-badge)
 ![downloads](https://img.shields.io/npm/dm/multer-deta-storage?style=for-the-badge)
 
