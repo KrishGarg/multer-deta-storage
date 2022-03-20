@@ -20,3 +20,24 @@ npm i multer-deta-storage --save
 | ---------- | --------- | -------------------------------------------------------------------------------------------------- |
 | baseName   | Yes       | What do you want to name the Deta Drive.                                                           |
 | projectKey | No        | Project Key for a Deta Project. By default, looks for the `DETA_PROJECT_KEY` environment variable. |
+
+# Usage
+
+```js
+const express = require("express");
+const multer = require("multer");
+const detaStorage = require("multer-deta-storage");
+
+const app = express();
+const upload = multer({
+  storage: detaStorage({
+    baseName: "my-base-name",
+    projectKey: "my-project-key",
+  }),
+});
+
+app.post("/upload", upload.any(), (req, res) => {
+  console.log(req.files);
+  res.json(req.files);
+});
+```
