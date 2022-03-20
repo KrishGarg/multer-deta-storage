@@ -76,6 +76,6 @@ async function stream2buffer(stream: Stream): Promise<Buffer> {
   });
 }
 
-export default (opts: MulterDetaStorageOptions) => {
+export = (opts: MulterDetaStorageOptions) => {
   return new MulterDetaStorage(opts);
 };

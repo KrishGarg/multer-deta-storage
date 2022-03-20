@@ -11,5 +11,5 @@ declare class MulterDetaStorage implements multer.StorageEngine {
     _removeFile(req: Express.Request, file: Express.Multer.File, cb: CallableFunction): Promise<void>;
 }
 declare const _default: (opts: MulterDetaStorageOptions) => MulterDetaStorage;
-export default _default;
+export = _default;
 //# sourceMappingURL=index.d.ts.map
