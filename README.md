@@ -1,5 +1,9 @@
 # Multer Deta Drive Storage Engine
 
+![version](https://img.shields.io/npm/v/multer-deta-storage?style=for-the-badge)
+![license](https://img.shields.io/npm/l/multer-deta-storage?style=for-the-badge)
+![downloads](https://img.shields.io/npm/dm/multer-deta-storage?style=for-the-badge)
+
 `multer-deta-storage` is a custom storage engine for [multer](https://github.com/expressjs/multer) to support [Deta Drive](https://docs.deta.sh/docs/drive/about).
 
 # Installation
