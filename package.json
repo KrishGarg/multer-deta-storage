@@ -1,0 +1,26 @@
+{
+  "name": "multer-deta-storage",
+  "version": "1.0.0",
+  "description": "Multer storage engine for Deta Drive",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf lib",
+    "dev": "nodemon src/index.ts"
+  },
+  "devDependencies": {
+    "@types/multer": "^1.4.7",
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "deta": "^1.1.0",
+    "multer": "^1.4.4",
+    "nanoid": "^3.3.1"
+  }
+}
